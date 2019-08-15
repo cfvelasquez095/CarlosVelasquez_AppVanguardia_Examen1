@@ -29,20 +29,29 @@ class Home extends React.Component {
             <Button variant="contained" color="primary">
                 Weather for May 20
             </Button>
+            <div>
+                <Weather weatherMonth='May' weatherDay='20' />
+            </div>
             <div></div>
             <Button variant="contained" color="primary">
                 Weather for May 21
             </Button>
+            <div>
+                <Weather weatherMonth='May' weatherDay='21' />
+            </div>
             <div></div>
             <Button variant="contained" color="primary">
                 Weather for May 22
             </Button>
+            <div>
+                <Weather weatherMonth='May' weatherDay='22' />
+            </div>
             <div></div>
             <Button variant="contained" color="primary">
                 Weather for May 23
             </Button>
             <div>
-                <Weather weatherMonth='May' weatherDay='20' />
+                <Weather weatherMonth='May' weatherDay='23' />
             </div>
         </div>
     );

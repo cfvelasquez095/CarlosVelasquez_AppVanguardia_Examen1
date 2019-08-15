@@ -25,7 +25,7 @@ class Weather extends React.Component {
                 Weather for {this.props.weatherMonth} {this.props.weatherDay}
             </Typography>
             <Typography variant="h5" component="h2">
-                Min:    Max:
+                Min:   Max: 
             </Typography>
         </CardContent>
     </Card>
